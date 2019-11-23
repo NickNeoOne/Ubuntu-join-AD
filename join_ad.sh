@@ -92,6 +92,10 @@ echo "пробуем найти доступные домены"
 echo "====================="
 echo ""
 realm discover $DOMAIN
+echo ""
+echo ""
+
+adcli info $DOMAIN
 
 echo ""
 read -sn1 -p "Нажмите любую клавишу для продолжения... или комбинацию Ctrl+C для отмены."; echo
